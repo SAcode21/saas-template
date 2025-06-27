@@ -42,7 +42,7 @@ export const FOOTER_CONSTANT: Footer = {
     width: 30,
     height: 30,
   },
-  companyName: 'Startup.',
+  companyName: 'Rishit',
   description:
     'We are a team of passionate developers dedicated to building amazing web applications. We love creating user-friendly interfaces.',
   socialLinks: {
