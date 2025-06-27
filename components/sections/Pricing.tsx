@@ -103,7 +103,7 @@ const Pricing = () => {
           </CardFooter>
 
           <motion.img
-            src='/images/pricing/dollar.png'
+            src='/images/pricing/dollar.webp'
             alt='Dollar Icon'
             width={500}
             height={500}
