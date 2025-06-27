@@ -44,7 +44,7 @@ export const FOOTER_CONSTANT: Footer = {
   },
   companyName: 'Rishit & Sejal',
   description:
-    'We are a team of passionate developers dedicated to building amazing web applications. We love creating user-friendly interfaces.',
+    'Assisting farmers and F&B businesses in optimal food resource production, management, transportation and utilization while forging sustainability across environmental, economic and social aspects.',
   socialLinks: {
     twitter: {
       href: 'https://x.com/rishit30g',
