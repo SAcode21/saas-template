@@ -31,7 +31,13 @@ const FeatureList = ({
         <Check
           className={`inline-block mr-1 size-4 ${feature.included ? 'text-green-600' : 'text-muted-foreground'}`}
         />{' '}
-        <span className={feature.included ? 'text-primary tracking-wide dark:text-white/90 ' : 'text-muted-foreground'}>
+        <span
+          className={
+            feature.included
+              ? 'text-primary tracking-wide dark:text-white/90 '
+              : 'text-muted-foreground'
+          }
+        >
           {feature.text}
         </span>
       </li>
