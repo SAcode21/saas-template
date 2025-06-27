@@ -22,8 +22,7 @@ export const HERO: HeroConfig = {
   description: 'Towards Green, Growth & Nourishment',
   buttonText: "Let's Explore",
   videoConfig: {
-    videoSrc:
-      'https://www.canva.com/design/DAFuVHXVULw/7T56Zd98AWYmSo6scz1VGQ/edit',
+    videoSrc:'https://www.canva.com/design/DAFuVHXVULw/7T56Zd98AWYmSo6scz1VGQ/edit',
     lightThumbnail: {
       src: 'https://startup-template-sage.vercel.app/hero-light.png',
       alt: 'Hero Video',
