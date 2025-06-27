@@ -29,7 +29,7 @@ export const NAVBAR_CONSTANT: Navbar = {
     width: 30,
     height: 30,
   },
-  companyName: 'Startup',
+  companyName: 'Gronosh',
   navigation: [
     { href: '#features', text: 'Features' },
     { href: '#pricing', text: 'Pricing' },
