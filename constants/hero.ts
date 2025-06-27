@@ -18,11 +18,11 @@ interface HeroConfig {
 }
 
 export const HERO: HeroConfig = {
-  title: 'This template is built for SaaS owners',
-  description: 'Create your SaaS with this template in hours, not days.',
+  title: 'Gronosh',
+  description: 'Towards Green, Growth & Nourishment',
   buttonText: "Let's Explore",
   videoConfig: {
-    videoSrc: 'https://www.youtube.com/embed/dQw4w9WgXcQ?si=gcHuOpFRg38gbu4J',
+    videoSrc: 'https://www.canva.com/design/DAFuVHXVULw/7T56Zd98AWYmSo6scz1VGQ/edit',
     lightThumbnail: {
       src: 'https://startup-template-sage.vercel.app/hero-light.png',
       alt: 'Hero Video',
