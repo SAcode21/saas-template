@@ -51,21 +51,23 @@ https://github.com/user-attachments/assets/c1d4cbe9-52b3-4cb8-8658-34cc652fa447
 
 Follow these 4 simple steps to get started with the SaaS template:
 
-1. Clone the repository
+1. Fork the repository
+
+2. Clone the repository
    ```bash
-   git clone https://github.com/Rishit30G/saas-template.git
+   git clone <forked-repo-url>
    ```
-2. Install dependencies
+3. Install dependencies
    ```bash
    npm install
    ```
-3. Start the development server
+4. Start the development server
    ```bash
    npm run dev
    ```
-4. Open your browser and navigate to `http://localhost:3000` to see the template in action.
+5. Open your browser and navigate to `http://localhost:3000` to see the template in action.
 
-5. Start customizing the content in the `constants` folder to fit your SaaS application.
+6. Start customizing the content in the `constants` folder to fit your SaaS application.
 
 
 
