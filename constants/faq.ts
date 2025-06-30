@@ -13,7 +13,7 @@ export const FAQ_DATA: FAQItem[] = [
     question: 'Who built this beautiful template?',
     answer: " - you're neighbourhood frontend developer :p",
     hasLink: true,
-    linkText: 'Rishit Gupta',
+    linkText: 'Rishit Gupta 😊',
     linkUrl: 'https://www.linkedin.com/in/rishit-gupta-4b18841b1/',
   },
   {
