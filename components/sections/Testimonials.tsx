@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 'use client'
 
 import { cn } from '@/lib/utils'
@@ -11,6 +10,7 @@ import {
 } from '@phosphor-icons/react'
 import Link from 'next/link'
 import { TESTIMONIALS_CONSTANT } from '@/constants/testimonials'
+import Image from 'next/image'
 
 const reviews = TESTIMONIALS_CONSTANT.reviews
 
@@ -60,10 +60,12 @@ const ReviewCard = ({
       >
         <div className='flex justify-between'>
           <div className='flex flex-row items-center gap-2'>
-            <img
+            <Image
               className='rounded-full object-cover w-8 h-8 aspect-auto'
               alt='user-image'
               src={img}
+              width={32}
+              height={32}
             />
             <div className='flex flex-col'>
               <figcaption className='text-sm font-medium dark:text-white'>

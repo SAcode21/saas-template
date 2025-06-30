@@ -29,9 +29,15 @@ const FeatureList = ({
       <li key={index}>
         {' '}
         <Check
-          className={`inline-block mr-1 size-4 ${feature.included ? 'text-green-600' : 'text-muted-foreground/70'}`}
+          className={`inline-block mr-1 size-4 ${feature.included ? 'text-green-600' : 'text-muted-foreground'}`}
         />{' '}
-        <span className={feature.included ? '' : 'text-muted-foreground/70'}>
+        <span
+          className={
+            feature.included
+              ? 'text-primary tracking-wide dark:text-white/90 '
+              : 'text-muted-foreground'
+          }
+        >
           {feature.text}
         </span>
       </li>
@@ -103,7 +109,7 @@ const Pricing = () => {
           </CardFooter>
 
           <motion.img
-            src='/images/pricing/dollar.png'
+            src='/images/pricing/dollar.webp'
             alt='Dollar Icon'
             width={500}
             height={500}
